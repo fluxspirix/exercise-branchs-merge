@@ -12,9 +12,8 @@ function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
 }
 
-function DeleteLastChar() {
+function RemoveLastChar() {
     const valorPantalla = document.getElementById('pantalla').value;
     const result = valorPantalla.substring(0, valorPantalla.length - 1);
     document.getElementById('pantalla').value = result
-
 }
