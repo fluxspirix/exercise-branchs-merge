@@ -11,4 +11,3 @@ function calcular() {
 function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
 }
-
